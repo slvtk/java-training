@@ -5,10 +5,6 @@ import java.util.Collections;
 import java.util.List;
 
 public class Stat {
-    public static void main(String[] args) {
-        System.out.println(stats(""));
-    }
-
     public static String stats(String strg) {
         if (!strg.isEmpty()) {
             String[] strings = strg.split(", ");

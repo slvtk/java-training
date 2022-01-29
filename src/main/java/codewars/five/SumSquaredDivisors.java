@@ -2,12 +2,7 @@ package codewars.five;
 
 import java.util.*;
 
-/*
-returns the num
-and sum of its divisor squares
-if its the square of some nums
- */
-
+//Returns the num and sum of its divisor squares if its the square of some nums
 public class SumSquaredDivisors {
     public static String listSquared(long m, long n) {
         List<String> divisors = new ArrayList<>();
@@ -27,5 +22,3 @@ public class SumSquaredDivisors {
         return divisors.toString();
     }
 }
-
-

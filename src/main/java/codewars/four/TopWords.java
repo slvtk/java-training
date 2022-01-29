@@ -6,7 +6,6 @@ import static java.util.Map.Entry.comparingByValue;
 import static java.util.stream.Collectors.toMap;
 
 public class TopWords {
-
     public static List<String> top3(String s) {
         Map<String, Integer> sorted = new TreeMap<>();
         String[] strings = s.toLowerCase(Locale.ROOT).split(" ");
