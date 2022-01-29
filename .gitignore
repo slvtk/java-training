@@ -25,6 +25,13 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 
 ##############################
+## Gradle
+##############################
+.gradle/
+build/
+!gradle-wrapper.jar
+
+##############################
 ## IntelliJ
 ##############################
 out/
